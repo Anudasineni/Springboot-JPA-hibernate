@@ -17,6 +17,6 @@ public class Student {
     private String sname;
     @ManyToMany
     @JoinTable(name = "Stu_Book", joinColumns = @JoinColumn(name = "sidfk"), inverseJoinColumns = @JoinColumn(name = "bidfk"))
-    private Set<Book> book;
+    private Set<Book> book;//one student can have many books
 
 }
