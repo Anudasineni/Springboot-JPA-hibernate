@@ -1,0 +1,3 @@
+This is simple Student Management web Application.
+User can add the student,update the student and delete.
+used thymeleaf for frontend to see the list of students data.
